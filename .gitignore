@@ -1,0 +1,11 @@
+.env
+.coverage
+.pytest_cache/
+.vscode/
+*.pyc
+.idea/
+app/user/
+.coverage
+.pytest_cache/
+.vscode/
+*.pyc

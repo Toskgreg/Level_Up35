@@ -1,0 +1,354 @@
+body {
+    background-color: #f8f8f9;
+    font-family: ff-clan-web-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+    background-color: black;
+    width: 100px;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    padding-top: 35px;
+    vertical-align: center;
+    font-size: 23px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: darkgray;
+}
+
+button {
+    background-color: darkcyan;
+    border: none;
+    outline: none;
+    padding: 20px;
+    color: #fff;
+    width: 435px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+}
+
+.promo {
+    color: darkturquoise;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.promo-link {
+    color: darkturquoise;
+}
+
+.wrap {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+}
+
+.container > #first-name {
+    width: 50%;
+    margin-right: 10%;
+}
+
+.container > #last-name {
+    width: 50%;
+}
+
+.d-flex {
+    width: 400px;
+    display: flex;
+}
+
+.d-flex > .select {
+    width: 30%;
+}
+
+.d-flex > .phone_num {
+    width: 70%;
+}
+
+select {
+    padding: 18px;
+    background-color: #fff;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .logo {
+        margin: 0 auto;
+        background-color: black;
+        width: 100px;
+        height: 65px;
+        text-align: center;
+        color: #fff;
+        font-weight: 900;
+        padding-top: 35px;
+        vertical-align: center;
+        font-size: 23px;
+    }
+
+    button {
+        background-color: darkcyan;
+        border: none;
+        outline: none;
+        padding: 20px;
+        color: #fff;
+        width: 548px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 13px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    
+    input {
+        margin: 0 auto;
+        display: block;
+        padding: 15px;
+        /* width: 500px; */
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .content {
+        max-width: 570px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 570px;
+        display: flex;
+    }
+    
+    .container > #first-name {
+        width: 40%;
+        margin-right: 10%;
+    }
+    
+    .container > #last-name {
+        width: 40%;
+    }
+
+    .d-flex {
+        width: 570px;
+        display: flex;
+    }
+    
+    .d-flex > .select {
+        width: 20%
+    }
+    
+    .d-flex > .phone_num {
+        width: 70%;
+    }
+
+    .wrap {
+        width: 512px;
+    }
+
+    .promo {
+        margin-bottom: 20px;
+    }
+
+    .promo-link {
+        color: darkturquoise;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        background-color: darkcyan;
+        border: none;
+        outline: none;
+        padding: 20px;
+        color: #fff;
+        max-width: 480px;;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .logo {
+        margin: 0 auto;
+        background-color: black;
+        width: 100px;
+        height: 65px;
+        text-align: center;
+        color: #fff;
+        font-weight: 900;
+        padding-top: 35px;
+        vertical-align: center;
+        font-size: 23px;
+    }
+
+    .content {
+        width: 490px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 490px;
+        display: flex;
+    }
+    
+    .container > #first-name {
+        width: 40%;
+        margin-right: 10%;
+    }
+    
+    .container > #last-name {
+        width: 40%;
+    }
+
+    .d-flex {
+        width: 490px;;
+        display: flex;
+    }
+    
+    .d-flex > .select {
+        width: 30%
+    }
+    
+    .d-flex > .phone_num {
+        width: 60%;
+    }
+
+    label {
+        font-size: 11px;
+        font-weight: 200;
+    }
+
+    .wrap {
+        width: 440px;
+    }
+
+    .promo {
+        margin-bottom: 20px;
+    }
+
+    .promo-link {
+        color: darkturquoise;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    button {
+        background-color: darkcyan;
+        border: none;
+        outline: none;
+        padding: 20px;
+        color: #fff;
+        width: 355px;;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    label {
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .content {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 360px;
+    }
+
+    .container > div {
+        float: left;
+        width: 35%;
+        margin-right: 10%;
+    }
+
+    .d-flex {
+        width: 360px;
+    }
+
+    .wrap {
+        width: 324px;
+    }
+
+    .terms {
+        width: 360px;
+    }
+
+    .promo {
+        margin-bottom: 20px;
+    }
+
+    .promo-link {
+        color: darkturquoise;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
